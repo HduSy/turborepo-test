@@ -20,3 +20,7 @@ export function toSlug(str: string): string {
 export function print(str: string):void {
   console.log(str)
 }
+
+export function random():number {
+  return Math.random()
+}
