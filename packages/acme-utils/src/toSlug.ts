@@ -16,3 +16,7 @@ export function toSlug(str: string): string {
   s = s.replace(/[^a-z0-9-]+/g, "");
   return s;
 }
+
+export function print(str: string):void {
+  console.log(str)
+}
